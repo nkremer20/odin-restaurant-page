@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    background-color: #ebe9cd;
+}
+
+/* header {
+    position: sticky;
+    top: 0;
+    background-color: #f0e6cc;
+    border-bottom: 2px solid #1b2942;
+} */
+
+#location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ba3b30;
+    border: 2px solid #202842;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+}
+
+#location-link {
+    color: #f0e6cc;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 14.5px;
+    padding: 11px;
+}
+
+#location-link:hover {
+    color: #fffaff;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-container > h1 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+nav > button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #ebe9cd;
+    color: #1b2942;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #ba3b3000;
+    padding: 10px 30px;
+    border-radius: 50%;
+}
+
+nav > button:hover {
+    color: #ba3b30;
+    border: 2px solid #ba3b30;
+}
+
+nav > button:focus {
+    color: #ba3b30;
+    border: 2px solid #ba3b30;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#photo-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 550px;
+    width: 90%;
+    border: 2px solid #202842;
+    border-radius: 20px;
+    background-image: url('https://images.getbento.com/accounts/569595b2fe9cd52b6295c3314e2e21ec/media/images/71416TBOS-0038.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5');
+}
+
+#open-container {
+    height: 150px;
+    padding: 20px 30px;
+    margin: 20px;
+    background-color: #cba029;
+    color: #1b2942;
+    top: 50px;
+    box-shadow: -10px -10px #1b2942;
+    border: 2px solid #1b2942;
+}
+
+#menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    border: 2px solid #1b2942;
+    width: 70%;
+    padding: 20px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+#menu-container p {
+    margin-top: 5px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    text-align: center;
+}
+
+.card-header h2 {
+    font-family: 'Jua', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+#snack-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #1b2942;
+    border-radius: 15px;
+    background-color: #cba029;
+    padding: 20px;
+    color: #1b2942;
+}
+
+#burger-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #1b2942;
+    box-shadow: -5px -5px #1b2942;
+    background-color: #ba3b30;
+    padding: 20px;
+    color: #ebe9cd;
+}
+
+.menu-item {
+    width: 80%;
+}
+
+.menu-item h2 {
+    margin-bottom: 5px;
+}
+
+.menu-item p { 
+    font-size: 18px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
