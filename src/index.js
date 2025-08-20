@@ -53,29 +53,27 @@ function clearContent() {
     }
 }
 
-// createHeader();
+createHeader();
 
-// home();
+home();
 
 const buttons = document.querySelectorAll('button');
 
-// buttons.forEach(button => {
-//     button.addEventListener('click', () => {
-//         switch (button.textContent) {
-//             case 'Home':
-//                 clearContent();
-//                 home();
-//                 break;
-//             case 'Menu':
-//                 clearContent();
-//                 console.log('Menu');
-//                 break;
-//             case 'About':
-//                 clearContent();
-//                 console.log('About');
-//                 break;
-//         }
-//     });
-// });
-
-console.log('Hello World!');
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        switch (button.textContent) {
+            case 'Home':
+                clearContent();
+                home();
+                break;
+            case 'Menu':
+                clearContent();
+                menu()
+                break;
+            case 'About':
+                clearContent();
+                console.log('About');
+                break;
+        }
+    });
+});
