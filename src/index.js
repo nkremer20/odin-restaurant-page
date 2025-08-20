@@ -72,7 +72,7 @@ buttons.forEach(button => {
                 break;
             case 'About':
                 clearContent();
-                console.log('About');
+                about()
                 break;
         }
     });

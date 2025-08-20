@@ -81,7 +81,9 @@ nav > button:focus {
 
 #content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #photo-container {
@@ -175,4 +177,14 @@ nav > button:focus {
     display: flex;
     justify-content: space-between;
     margin: 0;
+}
+
+#about-text {
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #192a3e;
+    width: 45%;
+    margin: 50px;
 }
